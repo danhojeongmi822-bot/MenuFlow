@@ -1,0 +1,23 @@
+{
+  "schema": "menuflow-bitstream/v1",
+  "canonical_download": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config.bit",
+  "verification_bitstream": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config.bit",
+  "area_report": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config_phy.area",
+  "timing_report": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/final_timing.rpt",
+  "sha256": "c06d4cf9273d4a8d4cafc72cc433d7ae36ccd69b2bfd6f9089fa1b19ae340f71",
+  "bytes": 629637,
+  "timing_metrics_ns": {
+    "SWNS": 0.135,
+    "STNS": 0.0,
+    "HWNS": 0.011,
+    "HTNS": 0.0
+  },
+  "source_commit": "a06ff2c39c511ccf108eaa97e21743430c7001e9",
+  "source_correspondence_status": "historical_build_evidence_reviewed_with_limitations",
+  "new_td_build_performed": false,
+  "new_board_test_performed": false,
+  "build_date": "2026-10-25",
+  "evidence": "Current project source list matches the retained synthesis snapshot (64 entries); synthesis/physical logs describe the full 2026-10-25 build. Current project business files match the selected main commit.",
+  "limitations": "No complete source SHA-256 list was captured at the instant of the historical build; no actual programmed-device hash is available for this bitstream.",
+  "note": "Existing main-workspace artifact and matching reports; not a new build, board test, proof of timestamp-only difference, or complete IO/CDC signoff."
+}

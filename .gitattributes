@@ -1,0 +1,10 @@
+# Preserve exact payload bytes and SHA-256 across platforms.
+* -text
+*.bit binary
+*.docx binary
+*.png binary
+*.BMP binary
+*.bmp binary
+*.PCM binary
+*.wav binary
+*.img binary

@@ -1,0 +1,21 @@
+# Rebuildable local outputs
+__pycache__/
+*.pyc
+*.vvp
+*.vcd
+*.al.bak
+~$*
+*.log
+*.logw
+/HX4S20_HDMI/build_hx4s20/
+/HX4S20_HDMI/board/sim_work/
+/HX4S20_HDMI/board/sim_logs/
+/HX4S20_HDMI/board/pin_verification.json
+/HX4S20_HDMI/board/regression_results.json
+/HX4S20_HDMI/board/fat32/rtl_fixture_results.json
+/HX4S20_HDMI/HX4S20_HDMI_Config_Runs/*
+!/HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/
+/HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/*
+!/HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config.bit
+!/HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/final_timing.rpt
+!/HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config_phy.area

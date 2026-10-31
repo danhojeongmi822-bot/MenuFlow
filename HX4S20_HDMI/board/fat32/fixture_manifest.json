@@ -1,0 +1,176 @@
+{
+  "cases": [
+    {
+      "image": "fat32_contiguous.img",
+      "sha256": "60651052c2536b60f1789c32735425c088a1992cd01326d4465262b4bdea41fa",
+      "sector_size": 512,
+      "partition_lba": 8,
+      "root_cluster": 2,
+      "sectors_per_cluster": 1,
+      "fat_start_lba": 40,
+      "data_start_lba": 41,
+      "files": {
+        "PIC1.BMP": {
+          "first_cluster": 3,
+          "size": 1024,
+          "clusters": [
+            3,
+            4
+          ],
+          "sha256": "b48938826e74ae61a60df2d30157e493a6330df33e92a5659890bf27dffa54df"
+        },
+        "PIC2.BMP": {
+          "first_cluster": 5,
+          "size": 512,
+          "clusters": [
+            5
+          ],
+          "sha256": "5aaf470746feafa98f892357298e08a76ce5f41e6327a8bb854daed04cc039ed"
+        },
+        "PIC3.BMP": {
+          "first_cluster": 6,
+          "size": 512,
+          "clusters": [
+            6
+          ],
+          "sha256": "96e129ab66180e574f585954267ab207a8634b87bdd349c2bae5574cbd975668"
+        },
+        "PIC4.BMP": {
+          "first_cluster": 8,
+          "size": 512,
+          "clusters": [
+            8
+          ],
+          "sha256": "d0b800eb0cb85a6c34b5ea7de70968145191caaf209106d4ee50e022c9547d44"
+        }
+      }
+    },
+    {
+      "image": "fat32_fragmented.img",
+      "sha256": "260c0025e73108e08576440029eccf79ff2839530aaca87954299c7fa77d615a",
+      "sector_size": 512,
+      "partition_lba": 8,
+      "root_cluster": 2,
+      "sectors_per_cluster": 1,
+      "fat_start_lba": 40,
+      "data_start_lba": 41,
+      "files": {
+        "PIC1.BMP": {
+          "first_cluster": 3,
+          "size": 1024,
+          "clusters": [
+            3,
+            7
+          ],
+          "sha256": "b48938826e74ae61a60df2d30157e493a6330df33e92a5659890bf27dffa54df"
+        },
+        "PIC2.BMP": {
+          "first_cluster": 5,
+          "size": 512,
+          "clusters": [
+            5
+          ],
+          "sha256": "5aaf470746feafa98f892357298e08a76ce5f41e6327a8bb854daed04cc039ed"
+        },
+        "PIC3.BMP": {
+          "first_cluster": 6,
+          "size": 512,
+          "clusters": [
+            6
+          ],
+          "sha256": "96e129ab66180e574f585954267ab207a8634b87bdd349c2bae5574cbd975668"
+        },
+        "PIC4.BMP": {
+          "first_cluster": 8,
+          "size": 512,
+          "clusters": [
+            8
+          ],
+          "sha256": "d0b800eb0cb85a6c34b5ea7de70968145191caaf209106d4ee50e022c9547d44"
+        }
+      }
+    },
+    {
+      "image": "fat32_superfloppy.img",
+      "sha256": "49fe2ca7bea19ef362a43ad92a75c4ef53eca61c4a3614659588c1ca8fffc88f",
+      "sector_size": 512,
+      "partition_lba": 0,
+      "root_cluster": 2,
+      "sectors_per_cluster": 1,
+      "fat_start_lba": 32,
+      "data_start_lba": 33,
+      "files": {
+        "PIC1.BMP": {
+          "first_cluster": 3,
+          "size": 1024,
+          "clusters": [
+            3,
+            7
+          ],
+          "sha256": "b48938826e74ae61a60df2d30157e493a6330df33e92a5659890bf27dffa54df"
+        },
+        "PIC2.BMP": {
+          "first_cluster": 5,
+          "size": 512,
+          "clusters": [
+            5
+          ],
+          "sha256": "5aaf470746feafa98f892357298e08a76ce5f41e6327a8bb854daed04cc039ed"
+        },
+        "PIC3.BMP": {
+          "first_cluster": 6,
+          "size": 512,
+          "clusters": [
+            6
+          ],
+          "sha256": "96e129ab66180e574f585954267ab207a8634b87bdd349c2bae5574cbd975668"
+        },
+        "PIC4.BMP": {
+          "first_cluster": 8,
+          "size": 512,
+          "clusters": [
+            8
+          ],
+          "sha256": "d0b800eb0cb85a6c34b5ea7de70968145191caaf209106d4ee50e022c9547d44"
+        }
+      }
+    }
+  ],
+  "anomalies": [
+    {
+      "image": "fat32_missing_file.img",
+      "sha256": "720840f8e098391b61a3e898a9099775b4382306547ea9d113a7fde702c44c0d",
+      "sector_size": 512,
+      "partition_lba": 8,
+      "expected_error": "missing_file"
+    },
+    {
+      "image": "fat32_invalid_bpb.img",
+      "sha256": "0d00a867ad214f6da689f67aa8bd31d401cd16068d5b9a94b4e1837781cf2d1e",
+      "sector_size": 512,
+      "partition_lba": 8,
+      "expected_error": "invalid_bpb"
+    },
+    {
+      "image": "fat32_fat_early_eof.img",
+      "sha256": "04ebb43ebb7b0571bb199ba14bc8444f7f58c03111a51cfff15f637c1d48f6cb",
+      "sector_size": 512,
+      "partition_lba": 8,
+      "expected_error": "fat_early_eof"
+    },
+    {
+      "image": "fat32_fat_loop.img",
+      "sha256": "32e02ceb3a836f66c5748e166efeca9f3d69f3f3d4bd67b5b24f4d544691a284",
+      "sector_size": 512,
+      "partition_lba": 8,
+      "expected_error": "fat_loop"
+    },
+    {
+      "image": "fat32_cluster_oob.img",
+      "sha256": "e7c37394e956b4e8e5ffbd4a6c997ab366682c65811e3354118bca65d8985206",
+      "sector_size": 512,
+      "partition_lba": 8,
+      "expected_error": "cluster_oob"
+    }
+  ]
+}

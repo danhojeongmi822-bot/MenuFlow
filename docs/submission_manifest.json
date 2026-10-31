@@ -1,0 +1,1611 @@
+{
+  "schema": "menuflow-submission/v1",
+  "source_commit": "a06ff2c39c511ccf108eaa97e21743430c7001e9",
+  "scope": "main business sources and selected report/demo/build attachments; independent Git history",
+  "manifest_self_excluded": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 174,
+      "sha256": "e0b74c02bbcdff20cbd154b9f3db27b15f2c51605365c5a2aac99dbf3d7840a7",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 633,
+      "sha256": "3b07be425a65e7840fdfe3abd6056bb9f10acd172cfe5b9137b15581ef5da0cb",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": "HX4S20_HDMI/HX4S20_HDMI_Config.al",
+      "bytes": 24679,
+      "sha256": "f933bd03e170b68f35b10ce6069d0307b3e9636b4efd3d269f98617b906f129d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/HX4S20_HDMI_Config.al",
+      "source_blob": "cef72723ac19db65741996f0ebd217acfbc6c852",
+      "transformation": "Only root Project Path changed to . for portability"
+    },
+    {
+      "path": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config.bit",
+      "bytes": 629637,
+      "sha256": "c06d4cf9273d4a8d4cafc72cc433d7ae36ccd69b2bfd6f9089fa1b19ae340f71",
+      "origin": "saved_workspace_attachment",
+      "source_path": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config.bit",
+      "note": "Saved attachment snapshot; not asserted to be a new build or a committed Git blob"
+    },
+    {
+      "path": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config_phy.area",
+      "bytes": 28523,
+      "sha256": "85be7eed2991c2b3f3503bdd23f7541b70d70f456e8bff7cca1a2cb6971185ca",
+      "origin": "saved_workspace_attachment",
+      "source_path": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/HX4S20_HDMI_Config_phy.area",
+      "note": "Saved attachment snapshot; not asserted to be a new build or a committed Git blob"
+    },
+    {
+      "path": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/final_timing.rpt",
+      "bytes": 1677025,
+      "sha256": "15ffe2bd5d8ed30ecf7ad71f53f050cbfc2bc001b4c61f35e5b345536ee16408",
+      "origin": "saved_workspace_attachment",
+      "source_path": "HX4S20_HDMI/HX4S20_HDMI_Config_Runs/phy_1/final_timing.rpt",
+      "note": "Saved attachment snapshot; not asserted to be a new build or a committed Git blob"
+    },
+    {
+      "path": "HX4S20_HDMI/I2S_receiver.v",
+      "bytes": 4845,
+      "sha256": "074aa48ddb8a18b2a613ed19a1450877c5de24c5ddad9a933c16373f3cc896ba",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/I2S_receiver.v",
+      "source_blob": "1bb12835affc35237a55cac1fb05569c2808d681"
+    },
+    {
+      "path": "HX4S20_HDMI/IP/PLL_HDMI_AUDIO.v",
+      "bytes": 2660,
+      "sha256": "5fb659372917e7bea808b898fec6b84b4a816da85b1385bb3b274792767e4a7b",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/IP/PLL_HDMI_AUDIO.v",
+      "source_blob": "83ee726947076da993ef107cba6067b1ab3af2e7"
+    },
+    {
+      "path": "HX4S20_HDMI/IP/afifo_16_32_256.v",
+      "bytes": 34007,
+      "sha256": "5384b6ae7df9c6f7b5ff254f225cdb4f10ab3d6356251b505ed33d7c426d90a3",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/IP/afifo_16_32_256.v",
+      "source_blob": "8e5c45d3e458547562e7e6480a0341a85c76ad4e"
+    },
+    {
+      "path": "HX4S20_HDMI/IP/afifo_32_16_256.v",
+      "bytes": 34007,
+      "sha256": "bd889ced60f9071eae4b9e352228a207c8bf70c815e2d3dc7950bbc00dcf5c1d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/IP/afifo_32_16_256.v",
+      "source_blob": "28c147a240ddc610e0323523585206f8435d8669"
+    },
+    {
+      "path": "HX4S20_HDMI/IP/sys_pll.v",
+      "bytes": 2560,
+      "sha256": "9bda81f56b5b7c3c0c8de4c7248c01d5eaa84557150bc8b4099ace471b5177f2",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/IP/sys_pll.v",
+      "source_blob": "da3107ae7db3d6d2ec0a88952cb83d01b0f29776"
+    },
+    {
+      "path": "HX4S20_HDMI/IP/video_pll.v",
+      "bytes": 2259,
+      "sha256": "fb658442a666353578314c49438070fd452271682ae747bc8dc8f4bfeeca8bf9",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/IP/video_pll.v",
+      "source_blob": "e5631f60b8ecbe11f815b77fdfed0fa2edaf753b"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/ax_debounce.v",
+      "bytes": 2115,
+      "sha256": "5449b3e57986d97e8ee67f2d00370302e9908e36aa7096197f6d583186581aaa",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/ax_debounce.v",
+      "source_blob": "5ab760a0bbb329df437e7460cea095f7f1700cc8"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/bmp_read.v",
+      "bytes": 15941,
+      "sha256": "422e5e8ff8d17aa08dbf4a380b093cfe277c50c310e7764d5015f30baa9db2a6",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/bmp_read.v",
+      "source_blob": "bf75d6d515f82831cf5440809dfebf7ad8d2d775"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/color_bar.v",
+      "bytes": 9141,
+      "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/color_bar.v",
+      "source_blob": "f3ba8c91fb6490baa25bb8e710a6448b25f98cd8"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/fat32_bmp_engine.v",
+      "bytes": 18118,
+      "sha256": "20c05d35aac48d0974f30fa4a0e850d0fe3ff29653485327c12f2a2f19694da2",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/fat32_bmp_engine.v",
+      "source_blob": "9eb7c02f5e3b61bfd695c24a872a125d48bf99ec"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/fat32_bmp_parser.v",
+      "bytes": 9177,
+      "sha256": "17b18e391e3be68bbb23496c407efc6bbcd9ef4ada2e8435ccf3f456b0160748",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/fat32_bmp_parser.v",
+      "source_blob": "966c1fa57579473698f133208d5efdaaedb748b2"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/fat32_file_streamer.v",
+      "bytes": 8023,
+      "sha256": "5537cf7a79df943db863683d5a0217b6507c6519132e665e4852b1aff2cd6b60",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/fat32_file_streamer.v",
+      "source_blob": "a91ff428f92a051ae155724a98657092b56107f1"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/fat32_volume_scanner.v",
+      "bytes": 24876,
+      "sha256": "c038c8d04a51afd4e0c6fa3d1ee6daef4ac22cf6dc214115e32ad45556c8df37",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/fat32_volume_scanner.v",
+      "source_blob": "371412605db492cfa1952194ca734f1f2f6d1eb0"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/four_bank_frame_commit.v",
+      "bytes": 1601,
+      "sha256": "60b0da8affbc32115079df02aa9c9af35bc46c958e2beb40f81dfe42dfe4e611",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/four_bank_frame_commit.v",
+      "source_blob": "832965b6a11c1e83b25c6c44204cc597a1c57d93"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/four_bank_frame_ctrl.v",
+      "bytes": 3886,
+      "sha256": "54ee30234726615d87f805104ec55a4c548398277b06974c51cd157c1d14e9b1",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/four_bank_frame_ctrl.v",
+      "source_blob": "79450f4f438306d6c9374e1ab6f2f783e7ef191e"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/frame_fifo_read.v",
+      "bytes": 9900,
+      "sha256": "57cb4b69a2ad28e80e7f7344de1669d3fa186a8edff23165bea7ea3ac0f92553",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/frame_fifo_read.v",
+      "source_blob": "04f51189a3fdf769b4375020818539de5695ba1f"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/frame_fifo_write.v",
+      "bytes": 11278,
+      "sha256": "56812e18cfe6a7273c15ab50a79f23494c82036dacc074f43a64cef80cb2a002",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/frame_fifo_write.v",
+      "source_blob": "12375481f8d0d77300d6a4cf3ffb057279797ae6"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/frame_read_write.v",
+      "bytes": 11783,
+      "sha256": "e3cbdb4de97a1ba46e35312bbe33502b83dfdc5cbd709a00d9d17cf580ae3e85",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/frame_read_write.v",
+      "source_blob": "ac94e0caab3f2dd8ed9bfad321c70353cb41bdde"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/sd_card_bmp.v",
+      "bytes": 37782,
+      "sha256": "172087e0437618c56dd32d49b29a8c4d35a959e7220632aa8935fa31ec5d2b9a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/sd_card_bmp.v",
+      "source_blob": "8b2e203c0f067ce2ee48f74db989629c2c788df0"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/sd_card_cmd.v",
+      "bytes": 8550,
+      "sha256": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/sd_card_cmd.v",
+      "source_blob": "c2fd890b505f44f8012479919ac093ddc701a468"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/sd_card_sec_read_write.v",
+      "bytes": 6564,
+      "sha256": "b08687525cb9ed60c93d4937b227ffbd2a31518c70019a3a445c9e0da9cac8d6",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/sd_card_sec_read_write.v",
+      "source_blob": "ee3d7da702a9ddd7cd71acddcce06a0161e50f1b"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/sd_card_top.v",
+      "bytes": 8453,
+      "sha256": "762f288911d9f8eb8427b16ccd8e572e0d20e898bc4ea94ab638b18c5ff883ff",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/sd_card_top.v",
+      "source_blob": "a37df7b244db2fa593e6511866b97341519fcbc9"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/sd_sector_adapter.v",
+      "bytes": 8951,
+      "sha256": "44e647f7c930075cf31529a9cef7eaf90d497df09c3f599aee303b8b58937d0e",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/sd_sector_adapter.v",
+      "source_blob": "db6739d5a2b034d38d2f33fd7876da1178c16516"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/sdram.v",
+      "bytes": 2353,
+      "sha256": "cc3158345501819e63d0e3d75a4c9f6850c3bfb88316fca4fefc980a62cb8a28",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/sdram.v",
+      "source_blob": "5f9bafc3b81ce2ee4546b117b148f749a41c59ca"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/seg_decoder.v",
+      "bytes": 754,
+      "sha256": "64a489486d633e02f19ba58a06985a8b1cb677706b6e60446f9aa3d0b0e0d9be",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/seg_decoder.v",
+      "source_blob": "8eb8d0826005940fb53e7dd8090032da390ab0a2"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/seg_scan.v",
+      "bytes": 1772,
+      "sha256": "ad98ea7a37bce5c6026c94691de23536c7c6045721ac38606e58cf72fddd2e09",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/seg_scan.v",
+      "source_blob": "c9d885e83855ade43df80f2296563f6eb708d97f"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/spi_master.v",
+      "bytes": 3677,
+      "sha256": "d8de32cd71948159c07365191f24b8d4410f6130436a72ec88dff48b813bdedb",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/spi_master.v",
+      "source_blob": "fcf5253e85dfcd5a64d6b4ce9e05fb81f62b63f4"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/video_define.v",
+      "bytes": 21,
+      "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/video_define.v",
+      "source_blob": "c6e7bde4b8a41410ea3d782cc4460a27b8f1b8a5"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/video_delay.v",
+      "bytes": 1579,
+      "sha256": "81c1fd79479563c53d3d4fd05f4b543b99eb98e9cb2e89773e59e21d828b61d8",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/video_delay.v",
+      "source_blob": "ce282e85ea7ded5fce24615c164d104f840ce07d"
+    },
+    {
+      "path": "HX4S20_HDMI/SD/video_timing_data.v",
+      "bytes": 2419,
+      "sha256": "c6ed5c6bd96c2d3b295fb33781a88a01c49b3e141388a10b72a217d3a02c3c61",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/SD/video_timing_data.v",
+      "source_blob": "364ea52bd3c6e8cef65166035fa4af764247893b"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/PIC1.BMP",
+      "bytes": 921654,
+      "sha256": "aca78754cddd638844604e012009ea0032a800c4997627e9644dcbabb860ae2a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/PIC1.BMP",
+      "source_blob": "9bf3dd758f69b9436639cef1c69268b7da2015f0"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/PIC2.BMP",
+      "bytes": 921654,
+      "sha256": "08b9bec5ee959d93c9e29c00f1813ba4ae6b4b3e602bf2576c685219b6eeba2b",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/PIC2.BMP",
+      "source_blob": "f5f0f88fe6a5de439f591f322c5392dccc70fbf9"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/PIC3.BMP",
+      "bytes": 921654,
+      "sha256": "b96c0a2298d518ff09f6070e3e3ea9015101ea13b9c2c674d36378f2c4547a47",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/PIC3.BMP",
+      "source_blob": "0a2d20d24a5fb35fa16eabeb9c53a154d5740799"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/PIC4.BMP",
+      "bytes": 921654,
+      "sha256": "8de23120421f3f86cc9634829bea848ef005e4e09027b962a5d86273a36b6b4c",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/PIC4.BMP",
+      "source_blob": "4aaefe1a6cc09a9c5dec43bdbc614cdc614fe34e"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/preview_page1.png",
+      "bytes": 22136,
+      "sha256": "164888c784ac94bc49c61c09acc1afb2b4aa39f22b152078595cfde0fe3be019",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/preview_page1.png",
+      "source_blob": "0f2e14b303a542880210aedd4f182702597cb18a"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/preview_page1_soldout_edit.png",
+      "bytes": 22568,
+      "sha256": "5545ef3fae77ae100f11cebebc16de4b35486259db66b64fc542667ec5118895",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/preview_page1_soldout_edit.png",
+      "source_blob": "be39dc46349cc0f5d686cbb0c8f9e4b8ed5e943a"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/preview_page2.png",
+      "bytes": 21525,
+      "sha256": "5c723914d287c3ff443106bdc3f10e901e2422d5d2ec764615e3dce346374a4a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/preview_page2.png",
+      "source_blob": "ffab0695692568cf821f5e45c79ddaee4c0b6252"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/preview_page3.png",
+      "bytes": 25573,
+      "sha256": "761dd4bfccabb6577c96fdf25c58706d2a6484d38197891aa13dc0b3b447fef7",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/preview_page3.png",
+      "source_blob": "29c524e984ff2e4f8ce907f564baafba7b65d6bb"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/menu/preview_page4.png",
+      "bytes": 24002,
+      "sha256": "89d5ed0088f645891dc0374b4d33dbf43aa52faca012b2d569ad3c2b6131faa7",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/menu/preview_page4.png",
+      "source_blob": "0e99ba0b7c8646236b32ea9787db9ff6fdce1745"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf/001.bmp",
+      "bytes": 921654,
+      "sha256": "ea687c2b81cd764a70c9dc2532f2cf66c8395080a801ee3b6afc1d426d567faa",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf/001.bmp",
+      "source_blob": "86a3959814bbf79852700d3bbcdec59a7408ac59"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf/002.bmp",
+      "bytes": 921654,
+      "sha256": "f3d34f970c2dd86bf789e7eb893783a4e0e70058fd1bfc58d2e4a8c16215f2f0",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf/002.bmp",
+      "source_blob": "49da71ad9de06e431b1f7ce0a4f4a7d230f4f787"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf/003.bmp",
+      "bytes": 921654,
+      "sha256": "82b8dbdb998fa681ec0d17f9cba5f5896ac9dfcd8909ba1cb4f1ee703827962f",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf/003.bmp",
+      "source_blob": "3e5bcfc5921bacdb24018acc672e336252215e4d"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf/004.bmp",
+      "bytes": 921654,
+      "sha256": "cd8514d02703ff607d7c86e450840d691b3e23b3b99c20c61945ec248a465ad2",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf/004.bmp",
+      "source_blob": "f0f85cea86e711c50c44471fadb4fb83a6bc6329"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf_audio/PIC3.PCM",
+      "bytes": 768000,
+      "sha256": "08d17d597e0fbe9170f46ecda951c3fa60b32984a6d6dd49e8fd58826ca0a3d2",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf_audio/PIC3.PCM",
+      "source_blob": "e70cd88bdc11e0b03e7ba78ad0cbb196d584b9e6"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf_audio/PIC4.PCM",
+      "bytes": 768000,
+      "sha256": "a51e9aeb2bc3280920187f846d10eb01ade280b25b761448a7e0fdf5db3c8071",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf_audio/PIC4.PCM",
+      "source_blob": "b7a57cadc310dc82d81571d419ad72f10f6fb03e"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf_audio/promo/PIC3.PCM",
+      "bytes": 598372,
+      "sha256": "a7359dc198ee0bf09e3cfc46f9ccc3e89cd8ea69c3de4e4ffb8d6d2063552c18",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf_audio/promo/PIC3.PCM",
+      "source_blob": "9e72bd75b59f008007c3554bd54d9cfa2106d541"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf_audio/promo/PIC4.PCM",
+      "bytes": 483712,
+      "sha256": "30c61cdec50e0e3b4602b5ab603915ee2c4808ca50f6e1d936496642749835ea",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf_audio/promo/PIC4.PCM",
+      "source_blob": "159f319690945ff8afe8317c839d99a4b4e08205"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf_audio/promo/PROMO1.wav",
+      "bytes": 598416,
+      "sha256": "7615be7bfdd8e46d6968ed0b2faad7cbcc48afa5e524ecdfc1ce7aa2c4d23cee",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf_audio/promo/PROMO1.wav",
+      "source_blob": "4b88a69b434d8b6d681d5d77c50abbca088c0797"
+    },
+    {
+      "path": "HX4S20_HDMI/assets/tf_audio/promo/PROMO2.wav",
+      "bytes": 483756,
+      "sha256": "442da6d84d0431697920bb788a4e799ae8a0989160cdc1e52088c9d184156668",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/assets/tf_audio/promo/PROMO2.wav",
+      "source_blob": "fbf70415f33e6e099d8a7871210b7f5ed2887801"
+    },
+    {
+      "path": "HX4S20_HDMI/audio/audio_page_gate.v",
+      "bytes": 3477,
+      "sha256": "feb08bd56777320e2c5d16f26b01cbb323ceb5f530d6e15bcfba165fb4b0d43a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/audio/audio_page_gate.v",
+      "source_blob": "9668e9d4dba25949434a0f9d55dd3b15bde0c1af"
+    },
+    {
+      "path": "HX4S20_HDMI/audio/audio_source_mux.v",
+      "bytes": 6586,
+      "sha256": "a4080d41875b40fff1e3180bcac965ae6cd0ff5b205b7e39c4c37b0b931e2f7b",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/audio/audio_source_mux.v",
+      "source_blob": "d1d6b32a3299383bfe77606386e50fb6f1ec452c"
+    },
+    {
+      "path": "HX4S20_HDMI/audio/pcm_ring_buffer.v",
+      "bytes": 8307,
+      "sha256": "1b280421d6e2b178e92fc5c19afc28a80db69abf4cfb1b05f38db0fcb79d2c28",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/audio/pcm_ring_buffer.v",
+      "source_blob": "66e76a2f69bb0b2863faac33b5b4edc5bf1e36d3"
+    },
+    {
+      "path": "HX4S20_HDMI/audio/pcm_stream_player.v",
+      "bytes": 19238,
+      "sha256": "c7abb4cf51848ce28c746b8e91db91e66bb5ca4cdf1b9cc6b6ec9fb7b7f23a50",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/audio/pcm_stream_player.v",
+      "source_blob": "3cc179554c15dd0fe70465eda442f6faf9981039"
+    },
+    {
+      "path": "HX4S20_HDMI/audio_arc_calculate.v",
+      "bytes": 1713,
+      "sha256": "9efbd9326e1f0490e4b081ccf89ca4d347b4b013bcd22387813609ef8e2730b6",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/audio_arc_calculate.v",
+      "source_blob": "d288b36db951b521909ade789fa22654a2c4ebc6"
+    },
+    {
+      "path": "HX4S20_HDMI/board/build_project.tcl",
+      "bytes": 1042,
+      "sha256": "2127222c534001b2ea867fe79f7f73793f423ac43041c332b2a43fedc934f20d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/build_project.tcl",
+      "source_blob": "26117347774f39d3cd312d19909b5fc7c9b8ecee"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_cluster_oob.hex",
+      "bytes": 159744,
+      "sha256": "414c622053fff55c7404cbea31034dc9160546fa904cf0034801753fa0c53b09",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_cluster_oob.hex",
+      "source_blob": "cb8ffaae4f0a1d0684782276caa9cac903e1d3d5"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_cluster_oob.img",
+      "bytes": 53248,
+      "sha256": "e7c37394e956b4e8e5ffbd4a6c997ab366682c65811e3354118bca65d8985206",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_cluster_oob.img",
+      "source_blob": "14195349c202e791af1f2a42aa8af4d73bf7ca8d"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_contiguous.hex",
+      "bytes": 159744,
+      "sha256": "47a6bccf7b82a8db25941e4bf6289f1eaa3c765cea1f6e36e8718a262854543a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_contiguous.hex",
+      "source_blob": "7452cf4cfd453ba7beb25d238840efc93d38120e"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_contiguous.img",
+      "bytes": 53248,
+      "sha256": "60651052c2536b60f1789c32735425c088a1992cd01326d4465262b4bdea41fa",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_contiguous.img",
+      "source_blob": "9a22ac81511ca5c17ccc44122f0df4e9a3d24858"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_fat_early_eof.hex",
+      "bytes": 159744,
+      "sha256": "2f92219f90f5bb86e7149a41524cac8723c73b8d4db271683670d289da87e985",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_fat_early_eof.hex",
+      "source_blob": "9201372f6ca19f6e1ad913afa0a444eadcc0d1f4"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_fat_early_eof.img",
+      "bytes": 53248,
+      "sha256": "04ebb43ebb7b0571bb199ba14bc8444f7f58c03111a51cfff15f637c1d48f6cb",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_fat_early_eof.img",
+      "source_blob": "c6da64156acec09fb5950d24b1283c1f39da410a"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_fat_loop.hex",
+      "bytes": 159744,
+      "sha256": "9c71958c77ac5fa1e31c415aee01fa5516f698507143482ae3b410edf15626b7",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_fat_loop.hex",
+      "source_blob": "99c40cfe8f8a33199d31cff32f9b0aafc94145c6"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_fat_loop.img",
+      "bytes": 53248,
+      "sha256": "32e02ceb3a836f66c5748e166efeca9f3d69f3f3d4bd67b5b24f4d544691a284",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_fat_loop.img",
+      "source_blob": "a90d3085551111e562020cb6565fa4474a5ac141"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_fragmented.hex",
+      "bytes": 159744,
+      "sha256": "7f14d2cee2a80572046cb031170cb290fe2f4c1b1710f8eedf4a322c0d100513",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_fragmented.hex",
+      "source_blob": "e272bb250ba0f9a7f791e3b64b3f7588a0094652"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_fragmented.img",
+      "bytes": 53248,
+      "sha256": "260c0025e73108e08576440029eccf79ff2839530aaca87954299c7fa77d615a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_fragmented.img",
+      "source_blob": "88517cc0e49377054a1464728363df5032d0fc67"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_invalid_bpb.hex",
+      "bytes": 159744,
+      "sha256": "71c947463156b4101c87914e17b6b9e045fc0d1d28a74acf8f14ea91af80b5d9",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_invalid_bpb.hex",
+      "source_blob": "10472fb2a7d7be5fe68ffefa1a444d0829c0fbd5"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_invalid_bpb.img",
+      "bytes": 53248,
+      "sha256": "0d00a867ad214f6da689f67aa8bd31d401cd16068d5b9a94b4e1837781cf2d1e",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_invalid_bpb.img",
+      "source_blob": "5ef0467f5aac3e148208171fcd5ca1cfb7965c8b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_missing_file.hex",
+      "bytes": 159744,
+      "sha256": "ffe0487bc855ca9966b25eeb68ec58e1aebe1c80795bb58ffef052b2920469a0",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_missing_file.hex",
+      "source_blob": "c777088f4a4d97f126c0e75b6108b95e0461fc72"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_missing_file.img",
+      "bytes": 53248,
+      "sha256": "720840f8e098391b61a3e898a9099775b4382306547ea9d113a7fde702c44c0d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_missing_file.img",
+      "source_blob": "b17f0c9ad568e7b007fd34d3f5af7caf1d14a491"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_superfloppy.hex",
+      "bytes": 147456,
+      "sha256": "b7d9704f7371b9969ee5a2fc7bed052a52a58169766d53a7514e088fdec3e125",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_superfloppy.hex",
+      "source_blob": "d3424499e84c625dc7f2902d20af4675110e5f2b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fat32_superfloppy.img",
+      "bytes": 49152,
+      "sha256": "49fe2ca7bea19ef362a43ad92a75c4ef53eca61c4a3614659588c1ca8fffc88f",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fat32_superfloppy.img",
+      "source_blob": "033e7016ea65f2ae34a502ad94d6467f8e251793"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/fixture_manifest.json",
+      "bytes": 4885,
+      "sha256": "8748b5bd9426fa2356f46cb009831cd0493bf75dfa2fc48f959b3a966728619d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/fixture_manifest.json",
+      "source_blob": "98481edc2cd4ab9fa7610f9fbe10dc132099cb6b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/make_fat32_fixtures.py",
+      "bytes": 5782,
+      "sha256": "d6ed3417b3a50f7728ed5ebb8d146c2db2a9527a0d1a22f1e63de9fb6624567c",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/make_fat32_fixtures.py",
+      "source_blob": "873d1d52b3f7a88963148a1715847fbf45ef11c0"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/run_rtl_fixture_matrix.py",
+      "bytes": 11513,
+      "sha256": "a5e579fa696e1ccf60097d78de8b43879fc84e13699d57acc0a14984a4de32ed",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/run_rtl_fixture_matrix.py",
+      "source_blob": "b9c5f084931ebc78f6672f016d53830216c5c5ac"
+    },
+    {
+      "path": "HX4S20_HDMI/board/fat32/test_fat32_fixtures.py",
+      "bytes": 1625,
+      "sha256": "1ec7235c55fc0ed838db987e9881d793ff69d129dda5036319caa7f0d060fea9",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/fat32/test_fat32_fixtures.py",
+      "source_blob": "f66cecaaf8b43599f8f6c0e47a1ce3c016ca5b3d"
+    },
+    {
+      "path": "HX4S20_HDMI/board/hx4s20_board_top.v",
+      "bytes": 1279,
+      "sha256": "cf459f1a7288de90ce0dc8b74b0c3ca745e429059f2da4926ba9dc62fbe8780e",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/hx4s20_board_top.v",
+      "source_blob": "ed9076b4aab6385859083ec4634bc6d7e21aa0a2"
+    },
+    {
+      "path": "HX4S20_HDMI/board/run_modelsim_audio.py",
+      "bytes": 5517,
+      "sha256": "7d0f093681ba3b9cf2e475bb810c7a1d004dd052e78dd888a9b144b5cfb86e5b",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/run_modelsim_audio.py",
+      "source_blob": "a70ec79a712cb9788237940d35e2f70aa3540f14"
+    },
+    {
+      "path": "HX4S20_HDMI/board/run_osd_modelsim.py",
+      "bytes": 8116,
+      "sha256": "ce6354e47b6e4450729ac9077048cd9ef818abcc7c81ac68bb464e223657d871",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/run_osd_modelsim.py",
+      "source_blob": "d5d452e7f5881b4fa1cc3daf82f42b965733af94"
+    },
+    {
+      "path": "HX4S20_HDMI/board/run_regression.py",
+      "bytes": 7866,
+      "sha256": "95121755464f1ed08ef4d8237ade315770da9c62483492063391675db46b8b0c",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/run_regression.py",
+      "source_blob": "1f946ed0a983be177697cceeef01d7f3de6a8174"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio.v",
+      "bytes": 1133,
+      "sha256": "53827804ae6a39fbae16f76fb9df747cd135d557dc534dd5c182a8c2cea1f524",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio.v",
+      "source_blob": "babf784b145f5b92eb8bc1264f2e3e313b4239ea"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_media_cdc.v",
+      "bytes": 2460,
+      "sha256": "b50f689a65326864d73e600a0b7d4c7e48dcdc070c04e94413f41f00575b7786",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_media_cdc.v",
+      "source_blob": "67ea42a68b25c4c3289def7ced9f151af956a91a"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_media_pcm.v",
+      "bytes": 6202,
+      "sha256": "fb124978716b00b0db26597d78c32263251be9cbadb32dec0627382f11296122",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_media_pcm.v",
+      "source_blob": "1afb3df079b4c6a39508b9871a2e17d77b73c26b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_page_gate.v",
+      "bytes": 5659,
+      "sha256": "1c1dd074687af43385fe9dc9d62089a5f83e976a42d52b245dbade0c451aaec5",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_page_gate.v",
+      "source_blob": "aa400ece6d473e2fd6f441315ba2f83653ba1b3c"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_page_gate_stress.v",
+      "bytes": 5006,
+      "sha256": "f1dd8c4693233955397e4230e1bf24194d62f806e7d77d54b606114fdae826ec",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_page_gate_stress.v",
+      "source_blob": "ca63f29742478b698b260d8085f4984ebc5edd07"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_pcm.v",
+      "bytes": 4537,
+      "sha256": "cbd2ff1cbb1d4713fb387aa969fec21ee8d9600c007606b735170b28a09470b1",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_pcm.v",
+      "source_blob": "7016a74cc7bbe7470c3bfc43c5496061063ff03b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_repeat_switch.v",
+      "bytes": 9924,
+      "sha256": "9d643fd60f97b54338bd0e0a8f667bce2d354ca17954073a42b354c27296327d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_repeat_switch.v",
+      "source_blob": "c03cee0ecf2028f5ec367704fd69c1305d19ccfb"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_source_mux.v",
+      "bytes": 8391,
+      "sha256": "e9a63211e4eefd6ebf09dea5925e70411502895928af88725a4a076c2e8f70b2",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_source_mux.v",
+      "source_blob": "70c97995f07b45edbf6c2bc8fabf1ccc7db2e3b1"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_subsystem.v",
+      "bytes": 12703,
+      "sha256": "9af0c638f6bc7ee9600d263fcb61f70a921f6b9f37281339d8515c45cc7a5058",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_subsystem.v",
+      "source_blob": "4e1cc3c534af80627acfa209ceaf305f98f97252"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_audio_waveform.v",
+      "bytes": 10433,
+      "sha256": "908babe10a1821fedb969e583b613737909961fb1edb3a46e47d58b7adeffe24",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_audio_waveform.v",
+      "source_blob": "32a02420b334126c7dec2915331c477ed2edbfdb"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_bmp.v",
+      "bytes": 2349,
+      "sha256": "3ca0729f117a949d740a180384f5a3ebe50c9d1db826b54777f7d12b972402b1",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_bmp.v",
+      "source_blob": "09628ecbb0cd82f9c4cbef28b3b0fe209413e0d1"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_bmp_scan.v",
+      "bytes": 3215,
+      "sha256": "4a356a08ef24fa8951603941cb153062144607515a21c087700a7a0439a35641",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_bmp_scan.v",
+      "source_blob": "13f154d30a6e5db3a401195b603600670e07767c"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_bmp_stability.v",
+      "bytes": 4658,
+      "sha256": "d9a3f3c29c2a22044a2d5e855564fdcaa866f09b3698fade695102a1e416c70d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_bmp_stability.v",
+      "source_blob": "36e1ecdc23df22e0b6ad08658320dc5315ff8156"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_commit_read_index.v",
+      "bytes": 7668,
+      "sha256": "6a0c57921cd830d74f8808dbca10c531dd811f9b0ec0e2d03e8eabbee3a47fbd",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_commit_read_index.v",
+      "source_blob": "c9809f781459774ebef552348ec219a0922c94da"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_fat32_bmp_engine.v",
+      "bytes": 6614,
+      "sha256": "b7f2c6cf54f23e47b3b734d199588374a45051092ea86ce1699b20d3cdf5bb8f",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_fat32_bmp_engine.v",
+      "source_blob": "fd230fdeeb5515139a21fda88b5b39ecf875b23d"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_fat32_bmp_parser.v",
+      "bytes": 3937,
+      "sha256": "8cf77dd983e8f983a389597e6e45400229e5c33ea80c48f45a8a857f9be6e076",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_fat32_bmp_parser.v",
+      "source_blob": "431298df096eae0d11b23be63d2989a982d686d1"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_fat32_file_streamer.v",
+      "bytes": 1802,
+      "sha256": "07d34e8d0b380c53e0d08a9fe900ea07c226bf8f2d940850e398cac449d615bc",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_fat32_file_streamer.v",
+      "source_blob": "257e91869efe79d90c0170b3db722a70631df3b9"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_fat32_fixture_matrix.v",
+      "bytes": 5983,
+      "sha256": "d087df60b9625cc5e0f6f6194839c43e0152b2659f04f985b970ad56878ea8d5",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_fat32_fixture_matrix.v",
+      "source_blob": "4a15fcbb9142c2eea5262c3531fb7766d2cfd838"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_fat32_real_bmp.v",
+      "bytes": 6139,
+      "sha256": "d8223ccff9a27c3f73ccbfef2f0973e4f9f679e077eff3fac6b343a34f0a395a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_fat32_real_bmp.v",
+      "source_blob": "99ba017b76e94fceab797ece20be8eb8105509d9"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_fat32_volume_scanner.v",
+      "bytes": 2534,
+      "sha256": "ffde0d4c3d6bdd3db6aca14036a54ebcfda3c8394741d2a56b6bbe818de471b1",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_fat32_volume_scanner.v",
+      "source_blob": "18a4ed5c3a00afff10e01a5e5df6a0bdcadd0bff"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_four_bank_frame_commit.v",
+      "bytes": 1955,
+      "sha256": "e0721f7c1ca5b5481f1986941455253995ae219385a012968eb5133719904feb",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_four_bank_frame_commit.v",
+      "source_blob": "7e0d95940e528ced338d30c62695e12d43bcb108"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_four_bank_frame_ctrl.v",
+      "bytes": 3126,
+      "sha256": "4350da66700c6642350e680e9594e702b494609e948e2e7c4747c8f58c9b7eb2",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_four_bank_frame_ctrl.v",
+      "source_blob": "cbb797cb7de9e1aa9b25ec1a15dec4d2ed4bb16b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_frame_ack.v",
+      "bytes": 3064,
+      "sha256": "50a46663e58500d0fac8065dece5b7ccc423b90e2989eb07498c79bb17a5d3fb",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_frame_ack.v",
+      "source_blob": "464c3d9ab168a9dacc718941f8d2762f856bd119"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_frame_fifo_write_address.v",
+      "bytes": 3664,
+      "sha256": "e7b2a351f6a40ce9810466a213feed1b925bc0b5e2f7c0b568a4b6520f482d59",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_frame_fifo_write_address.v",
+      "source_blob": "21d813673fa294d13b7ef8937606a4432504b0f2"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_key_event.v",
+      "bytes": 5260,
+      "sha256": "85e2e9cca6ecfe96ec108c8fdbd469f9aaf9644d442779a3d393274064d98793",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_key_event.v",
+      "source_blob": "d8b54f1b6e49c613e0bea736d4da3cefc6d78685"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_lane_lvds_10_1.v",
+      "bytes": 3382,
+      "sha256": "46dff712ee1ee0da073698ed5c7de0546997a80b65d6081c4a6a0fd119eee109",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_lane_lvds_10_1.v",
+      "source_blob": "90ad77ca945014a613e7deab15f2d4712e42c672"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_media_follow_bank.v",
+      "bytes": 5176,
+      "sha256": "9b33508dea8476cf583e42fe6b1a1587d380df3a448bc3638484230440101b26",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_media_follow_bank.v",
+      "source_blob": "51fdcaebfa8e93191a00609de378222f02636571"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_menu_cjk_rom.v",
+      "bytes": 4758,
+      "sha256": "3bbc35a49eef867005667fbbbb0fb05cc55bcac70befeaa0cdcc3c058522a456",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_menu_cjk_rom.v",
+      "source_blob": "a5f38ff859c0248d4730a959c9a27ee8b6a06f92"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_menu_control.v",
+      "bytes": 10295,
+      "sha256": "f83a5bf0eda7347a5c11d2172d5dc135211636828d828d1e1139ba859fffbf9b",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_menu_control.v",
+      "source_blob": "1be2a4ff93f88187dc4c2ff724711e9508c797d3"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_menu_pipeline.v",
+      "bytes": 12673,
+      "sha256": "6a4b3bd082751f3871ddcfb329dbefdad92206f0072904baa79ecc784d81335a",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_menu_pipeline.v",
+      "source_blob": "07c3ffef4827b446a2dd3af107fc8b7951491fde"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_osd_error_code.v",
+      "bytes": 4546,
+      "sha256": "b1a09e7182185265e09a41124a146d8e35c6edc03ad673fb0f78fd057f634e6f",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_osd_error_code.v",
+      "source_blob": "ec0f381ccebcc3dca4c65b78cdaca630b2c21e5d"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_osd_font.v",
+      "bytes": 5958,
+      "sha256": "c93f2a80c3f57aba79f2ce60db94595b36a6182bad779241a0cdfdbebb259fd1",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_osd_font.v",
+      "source_blob": "a4ed6abfabd2153b7bb043b3144d7ecc2539b249"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_osd_status_cdc.v",
+      "bytes": 7165,
+      "sha256": "7138f3a75cf7368d6b035730a6882454f9d9b366d20e8d6542a82503f1040299",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_osd_status_cdc.v",
+      "source_blob": "27e77475ec7d58567d22a0d4d176870ac138d334"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_osd_video_pipeline.v",
+      "bytes": 14176,
+      "sha256": "b825afe1af9568a0586b1316943a22b7369675ce0217fe8276f80efa961f5d1d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_osd_video_pipeline.v",
+      "source_blob": "d3c5796d2f39176a7c22515bea323b3526480f2f"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_pcm_abort_timing.v",
+      "bytes": 7465,
+      "sha256": "748a092d07e79e5fabe0456b87c2ed15977f9684e6af9aa24e440483c15d86a9",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_pcm_abort_timing.v",
+      "source_blob": "0ded2a5c469edc06ed00ba9f316415a0369dcfef"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_pcm_player_restart.v",
+      "bytes": 8912,
+      "sha256": "e041f85ffc77476c0aa3375fbcb631e561e400cffdd36935f465dfde11624863",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_pcm_player_restart.v",
+      "source_blob": "d1ba0a897a46b13856e96fcc402854473e89560b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_pcm_ring_buffer.v",
+      "bytes": 9271,
+      "sha256": "3025eff4ceaa065abc9055f46a7a1a51ef77d3e2b9ccdb63e0d9fdb54e3cb2ca",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_pcm_ring_buffer.v",
+      "source_blob": "e5dc05e3461f0557b091274064b6a0e0b7f49007"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_pcm_stream_player.v",
+      "bytes": 15880,
+      "sha256": "2d960e99f143d95f09767fe5fc711f11efc925240d9e0f299a0d73684c6048e5",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_pcm_stream_player.v",
+      "source_blob": "4162b855c7bddf648e9c15c36d8666a7791aed21"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_reset.v",
+      "bytes": 522,
+      "sha256": "01927b8b7caa83e02775ef6aa608e8dac7b3b29864278f5d9aafc15f1b5c4f79",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_reset.v",
+      "source_blob": "cf7fb3a33966c38c1b2d399f1b2bba431a5f9bdf"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_scanner_pcm.v",
+      "bytes": 11449,
+      "sha256": "07914558d0bc6b2cc7ece50913195d4ee5396ab9c9cf4b5773d6a0a6d2d19443",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_scanner_pcm.v",
+      "source_blob": "22a953039c290966d56d8e9ba529b06cd52e6800"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_sd_adapter_three_owner.v",
+      "bytes": 6403,
+      "sha256": "b6e78c95fd0db4b18cfac0ed694a90417298d243838f3938241bdcb0a985f520",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_sd_adapter_three_owner.v",
+      "source_blob": "f4bc9d938d54557d79597417784a365c21be6571"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_sd_card_bmp_control.v",
+      "bytes": 10711,
+      "sha256": "ee0fb62155402e79a6dde0a0e149f4af4d186a0fc770588818028ff9489ae317",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_sd_card_bmp_control.v",
+      "source_blob": "4781fd0dde7e248b3834b94352a4c9feb42e93b4"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_sd_error_events.v",
+      "bytes": 4525,
+      "sha256": "7350f954e027dbcc408d7336767862bcdf00ee2bb0426eac4a7c238eb40be2ef",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_sd_error_events.v",
+      "source_blob": "2218ac0e9c213b88c99a3834b96b6337090380df"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_sd_init_sdhc.v",
+      "bytes": 3014,
+      "sha256": "5a94cba6fe385205f95605239f919987863d118a688f064e745ffee148fcef16",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_sd_init_sdhc.v",
+      "source_blob": "2fadb75e33dd4bedb7396cdef852c37bea07c341"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_sd_sector_adapter.v",
+      "bytes": 2882,
+      "sha256": "fdede9299f49979aa957c15fe06ac60f3d6c9d8fb3b5686d2139d1280c3e7912",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_sd_sector_adapter.v",
+      "source_blob": "427fbf227d348d64db4ecd2ab4bd8a5e58276576"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_soldout_overlay.v",
+      "bytes": 16461,
+      "sha256": "75903eb8cd80aa56bb5405283ba34ab13b9820a7d7144c42c201f32580fcf654",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_soldout_overlay.v",
+      "source_blob": "193c68bed8d39f65f542d9420678b40d71b71543"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_stability_injection.v",
+      "bytes": 11641,
+      "sha256": "8090ddee47670400fc2ed1b6af37b3a332610df57f7855bd567e069251817a41",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_stability_injection.v",
+      "source_blob": "4812feb7c9b22fe0379930759e1d3eb3898f3d37"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_startup_sequence.v",
+      "bytes": 9501,
+      "sha256": "64671742d1ab36939a677d4399315a06751b3580c8f0ce05d7ebb74c4b85e670",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_startup_sequence.v",
+      "source_blob": "2e9750dabe10c1fbfcba2187a9250a7dae8b9145"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_top_wiring.v",
+      "bytes": 9362,
+      "sha256": "29faece95e3565a62c671bf0e0edec70cfc9b720cbb587f4e5ed16da7e03bec3",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_top_wiring.v",
+      "source_blob": "063a8a0fb22109add356a1dbcc10ab82e2fc7ca5"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_transition_pipeline.v",
+      "bytes": 18712,
+      "sha256": "5b2388ca673bc37f8cd62d976b63a48573119e5d402a06c32fb8b2ad4d1a111b",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_transition_pipeline.v",
+      "source_blob": "f829a41446ef695160cd37ebf5c2d032201416bb"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_video_axis.v",
+      "bytes": 3571,
+      "sha256": "5196ca199bdfb6eed0257bc5395809685c0fce5b2debf89d6eed00ef04932e4e",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_video_axis.v",
+      "source_blob": "fa2ae7f679fbc5739134ee22d2f07e80c0fecc4b"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_video_effect.v",
+      "bytes": 8060,
+      "sha256": "6e722187ec4051003f0e4b917c87cf3990937f32a623fc6404d480ac970cf710",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_video_effect.v",
+      "source_blob": "a13d8f91fe8229e02e3f3b805f27a0aa267b8685"
+    },
+    {
+      "path": "HX4S20_HDMI/board/tests/tb_video_transition.v",
+      "bytes": 26122,
+      "sha256": "09070d083f0d049133c331b300647adfebd1681eb0cefdea67802b99424f8f1f",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/tests/tb_video_transition.v",
+      "source_blob": "0af27c6033fd46f2f79fb6bb9cd3cc609ab0ada2"
+    },
+    {
+      "path": "HX4S20_HDMI/board/verify_pin_report.py",
+      "bytes": 3913,
+      "sha256": "a186101088e4bbf2df6346b8b6b38f6cf6dee2a75ea24156d3b043f365e6e3cd",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/board/verify_pin_report.py",
+      "source_blob": "e7078bb83ee832c5f77e9712f587224405af7321"
+    },
+    {
+      "path": "HX4S20_HDMI/constraints/hx4s20_clocks.sdc",
+      "bytes": 167,
+      "sha256": "74a0e56de7f30e1b0bc4336eb30ea801c58a8f528e00f75fc126df4de48f3e85",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/constraints/hx4s20_clocks.sdc",
+      "source_blob": "5394e4a421aef1ef6a89a85d774372c549786ba9"
+    },
+    {
+      "path": "HX4S20_HDMI/constraints/hx4s20_hdmi_a.adc",
+      "bytes": 3452,
+      "sha256": "e2cfc97cca129d95f55baae8de9a6c7e0694105214d846cafb07d1b17ad75fb6",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/constraints/hx4s20_hdmi_a.adc",
+      "source_blob": "0cf73c18492affac8bc60c970bd5dea6523bf024"
+    },
+    {
+      "path": "HX4S20_HDMI/display/audio_waveform_overlay.v",
+      "bytes": 10279,
+      "sha256": "63d55af45ddd4f65f01fad6d9bd50b2e5dfc76778c01245756d3f3e592716672",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/audio_waveform_overlay.v",
+      "source_blob": "1af5bc554c7eaf81d7a924a3da46cfbff2c9bf33"
+    },
+    {
+      "path": "HX4S20_HDMI/display/key_event.v",
+      "bytes": 3101,
+      "sha256": "b0674ab57ff0c87e735c7d545d17b5f8253eae877cc602d7fdb5f3938aed39ef",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/key_event.v",
+      "source_blob": "a852818910e76a8f071f2bd847b2a93f90902dae"
+    },
+    {
+      "path": "HX4S20_HDMI/display/menu_band_font.v",
+      "bytes": 3774,
+      "sha256": "61116c2502b6624745042b13f0f87926b2bd88cf08e1b98f6ac70585034daf21",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/menu_band_font.v",
+      "source_blob": "0296c32653dc37421fe7ea673ec984e7d61191aa"
+    },
+    {
+      "path": "HX4S20_HDMI/display/menu_cjk_rom.v",
+      "bytes": 3078,
+      "sha256": "a129bd27b01ca84bdfce930bb86c99a10bd9abcd9ed5470807b551f05fb94ae3",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/menu_cjk_rom.v",
+      "source_blob": "5a1b246f96d6f0eeeef01056ee1bff4fe6ba84e2"
+    },
+    {
+      "path": "HX4S20_HDMI/display/menu_control.v",
+      "bytes": 4933,
+      "sha256": "e3a814b53a328b383c298df9192f6551537fbee76f500e32bd414a7e271ac934",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/menu_control.v",
+      "source_blob": "20f8c4e2861c4cce02f4dc5a17be31a6bfe6c840"
+    },
+    {
+      "path": "HX4S20_HDMI/display/osd_font_rom.v",
+      "bytes": 9339,
+      "sha256": "e2c965e0fbffad64e1edfe9bc69f64eda60a02000a9cb2bdbca28ccdc8909c60",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/osd_font_rom.v",
+      "source_blob": "59a2de79226221e033a2787709df41c546819b09"
+    },
+    {
+      "path": "HX4S20_HDMI/display/osd_overlay.v",
+      "bytes": 8799,
+      "sha256": "5bcd3d552934520561f2c4338e2199823607a95db062dbe6f4a10b3fcd454573",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/osd_overlay.v",
+      "source_blob": "ae08d13d404bbfc4d97c78ebd5e5b5683ff47d7c"
+    },
+    {
+      "path": "HX4S20_HDMI/display/osd_status_cdc.v",
+      "bytes": 3504,
+      "sha256": "e2eaa64b39846c1b4fe3d9c3bdd95bb877db0c1b0fc72fa7268ac2255954eb18",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/osd_status_cdc.v",
+      "source_blob": "2180be3ac32c217687e5271c41dcf9aa501ab0e2"
+    },
+    {
+      "path": "HX4S20_HDMI/display/soldout_overlay.v",
+      "bytes": 8475,
+      "sha256": "8c88975ad647507de2a4e5487381e20f104316d96df445ad0d5f4c382a0a5b30",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/soldout_overlay.v",
+      "source_blob": "0e3248c0bfa7c098c6efa4b2239c202e25eb177a"
+    },
+    {
+      "path": "HX4S20_HDMI/display/video_effect.v",
+      "bytes": 3612,
+      "sha256": "24af5e8178650d5c8b054b6422fb1c0f6ea4e978e250d657b475946b573105a5",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/video_effect.v",
+      "source_blob": "5f10872ce30f044765a0d68e768affe1c8a1a161"
+    },
+    {
+      "path": "HX4S20_HDMI/display/video_transition.v",
+      "bytes": 16015,
+      "sha256": "53fe2763c3942719e0dde9e911b1bb35b795bb6f1fda41181d9480cfb7e7a68f",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/display/video_transition.v",
+      "source_blob": "b0c829eab01a46e573cc4b9406fde8a271a1987f"
+    },
+    {
+      "path": "HX4S20_HDMI/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "bytes": 323934,
+      "sha256": "25a28679c51d779a1c811772cf83e3092a3106b25e2e21f1560ba624ebd72bd0",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "source_blob": "cac594badf83323c505103a67fa0fb09548e0b9b"
+    },
+    {
+      "path": "HX4S20_HDMI/hdmi_audio_tone_i2s_64fs.v",
+      "bytes": 3518,
+      "sha256": "01a0fe5515dfe8c1df2682734fe13fad491cee22ad188aa5bfd1f30e1b1b42fe",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/hdmi_audio_tone_i2s_64fs.v",
+      "source_blob": "28acadf24e7b64c29c98fb8a50fe8b8542652e69"
+    },
+    {
+      "path": "HX4S20_HDMI/hdmi_phy_warpper.v",
+      "bytes": 3932,
+      "sha256": "035d87ff06abf4d8ba51f709e37770569f0e7e205209887ae85134fe5a6912cc",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/hdmi_phy_warpper.v",
+      "source_blob": "1e37f1aae652a7fd09933b4a4f45dc917d610ed8"
+    },
+    {
+      "path": "HX4S20_HDMI/include/global_def.v",
+      "bytes": 342,
+      "sha256": "a9e001beae46274a457a66c2624ed6aa7236ec7843ed18372f14b700eedc6b62",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/include/global_def.v",
+      "source_blob": "9ab4360a32948b79d796caa38e85ee2b3a0bac18"
+    },
+    {
+      "path": "HX4S20_HDMI/include/menu_layout.vh",
+      "bytes": 2008,
+      "sha256": "57e06fcc6ba379a8f772ba03dd4e16450294341e1737a3d56d13ae1306709d5e",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/include/menu_layout.vh",
+      "source_blob": "b3470ec917a307b938e55450df074558e8909ff7"
+    },
+    {
+      "path": "HX4S20_HDMI/include/sdr_as_ram.enc.v",
+      "bytes": 7386,
+      "sha256": "ebecfaf30303a1353ac3bd48d5785836b9622e480ebd6a95bc4a663e43688936",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/include/sdr_as_ram.enc.v",
+      "source_blob": "b9737a85f8bef0634bf023acadfc732cc8cbbac6"
+    },
+    {
+      "path": "HX4S20_HDMI/include/sdr_init_ref.enc.v",
+      "bytes": 8812,
+      "sha256": "52efb8ed26be68750148fa4c43f4522759f1ab6a0c223050e0af1757853a74d5",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/include/sdr_init_ref.enc.v",
+      "source_blob": "4c0daeb193f9a9238261ad14869e91623d00dff8"
+    },
+    {
+      "path": "HX4S20_HDMI/include/sdr_wrrd.enc.v",
+      "bytes": 15382,
+      "sha256": "8ad6e44a16e5c1ad895a9461ed2a20b0449920f5139e3a0d091a2dcae400c1aa",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/include/sdr_wrrd.enc.v",
+      "source_blob": "f72a946adb6482c5fe85682cde6b6d4f0703ed50"
+    },
+    {
+      "path": "HX4S20_HDMI/lane_lvds_10_1.v",
+      "bytes": 4265,
+      "sha256": "fd61b139c3803a16d1a3ed33bbd9babd88af4c73702a98b406d7ea6b7771269b",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/lane_lvds_10_1.v",
+      "source_blob": "e26f0ccfed18dd5b4c984006e36241e25d3ea53d"
+    },
+    {
+      "path": "HX4S20_HDMI/media_hdmi_audio_bridge.v",
+      "bytes": 949,
+      "sha256": "1bb11357da0180b8ce7ade4425be207360f0fdea998a1ea1ad49ede120198bcd",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/media_hdmi_audio_bridge.v",
+      "source_blob": "6864f5b70da7d8435c24998ebcb7db9641fdd90b"
+    },
+    {
+      "path": "HX4S20_HDMI/pcm_media_tone.v",
+      "bytes": 4962,
+      "sha256": "cc68c98aead5aea901d99fbe2df4d53c5d91a0566aefa358013e9be754da95ad",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/pcm_media_tone.v",
+      "source_blob": "5837f23ec2cbd419c28917c62d4ec54e68009535"
+    },
+    {
+      "path": "HX4S20_HDMI/pcm_test_tone.v",
+      "bytes": 2416,
+      "sha256": "7b0994a4014f841ff1bf8c51a6e4d72d29d716be7e6d41f252a71c8b552c5dee",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/pcm_test_tone.v",
+      "source_blob": "734ff38a61d9c3c130bc0a4a73695f48911b6a6d"
+    },
+    {
+      "path": "HX4S20_HDMI/startup_pulse.v",
+      "bytes": 678,
+      "sha256": "9ec05532715e5d3d2b61d252a274a7d045133e7bbba05b074206e9f8f92d697d",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/startup_pulse.v",
+      "source_blob": "7cf1474d1ea69d6d82c4c92c59366ec8be6f1436"
+    },
+    {
+      "path": "HX4S20_HDMI/state_code_media_cdc.v",
+      "bytes": 2094,
+      "sha256": "9fe7295cf326284af623d5d4b84fa1684a88288f6f4edeba1ed7142829492e37",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/state_code_media_cdc.v",
+      "source_blob": "49938025f6af96ac47540811cd30f16182de89fe"
+    },
+    {
+      "path": "HX4S20_HDMI/tools/menuflow/make_audio_corpus.py",
+      "bytes": 6710,
+      "sha256": "c8958cf002465701e4a99d63622680aa4c1feb42bfa20327a593d9d576fe037c",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/tools/menuflow/make_audio_corpus.py",
+      "source_blob": "9995ed60d27112f91021285212ce4d63d088c65c"
+    },
+    {
+      "path": "HX4S20_HDMI/tools/menuflow/make_menu_assets.py",
+      "bytes": 22516,
+      "sha256": "c9e965e6b3b8761c517f84d5587961375927f88ebc5fc71eaaf19a2e1dd76f09",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/tools/menuflow/make_menu_assets.py",
+      "source_blob": "3545634b7bb31f6b0fa72b49764734d4ae62a5d0"
+    },
+    {
+      "path": "HX4S20_HDMI/tools/menuflow/run_td_build.py",
+      "bytes": 3562,
+      "sha256": "5e3992fe6ce37fe749168df44c9c7d01d891402a079e70dfc20ea36e5e26f368",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/tools/menuflow/run_td_build.py",
+      "source_blob": "cc615b8dc2796f806f4d9a34f640f16aef2c4090"
+    },
+    {
+      "path": "HX4S20_HDMI/tools/submission/prepare_project.py",
+      "bytes": 914,
+      "sha256": "2bfefce421ac7f66d6c779c67143d1fd44eaedd86e3a99dbe089486606dfd6de",
+      "origin": "new_submission_tool"
+    },
+    {
+      "path": "HX4S20_HDMI/tools/submission/verify_submission.py",
+      "bytes": 6132,
+      "sha256": "5bd8476d980b7f3b2f3c44f1c5408adac61b86afab762bf39284a1849461c2f0",
+      "origin": "new_submission_tool"
+    },
+    {
+      "path": "HX4S20_HDMI/top_tf_hdmi_audio.v",
+      "bytes": 30178,
+      "sha256": "70dc1c49e9fc72db779bab68155e3e99c4c0ac0c82b969b286ba21299117b631",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/top_tf_hdmi_audio.v",
+      "source_blob": "50ba1bd5d1e9e2aed21c9a64d6e724c53d412b6e"
+    },
+    {
+      "path": "HX4S20_HDMI/user_source/hdl_source/include/global_def.v",
+      "bytes": 342,
+      "sha256": "a9e001beae46274a457a66c2624ed6aa7236ec7843ed18372f14b700eedc6b62",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/user_source/hdl_source/include/global_def.v",
+      "source_blob": "9ab4360a32948b79d796caa38e85ee2b3a0bac18"
+    },
+    {
+      "path": "HX4S20_HDMI/video_rgb_to_axis_640x480.v",
+      "bytes": 2624,
+      "sha256": "f6108da52df2928a406d308060c8418ecc07eb835cbe4d44242287e35a103df7",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/video_rgb_to_axis_640x480.v",
+      "source_blob": "ab8fe7672b4b3fbdf8083e21a4af3926a38ff389"
+    },
+    {
+      "path": "HX4S20_HDMI/video_source_test.v",
+      "bytes": 2863,
+      "sha256": "7ba887711a7d0dd20bff3abe0e31394bcb66c05d307f2da9b749ba32394c6462",
+      "origin": "git_blob",
+      "source_path": "HX4S20_HDMI/video_source_test.v",
+      "source_blob": "cf3c199b9727ed2fc33f13193398411f7b50738a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5568,
+      "sha256": "8d2f366badb3677be99b3cbec69eb8f6080e3fa88620b214dfb1c34af95e70a8",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": "docs/images/report-media/image1.png",
+      "bytes": 67191,
+      "sha256": "787db8fa20de80a88e406e5eb8bc8c3076d71592635851045bb8a8cbfb4aaadc",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image1.png",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image10.jpeg",
+      "bytes": 61063,
+      "sha256": "42f5e3993ab419180a4eab37ae35604e344ad27d7394310d0af2a59ddab4b1b5",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image10.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image11.jpeg",
+      "bytes": 277112,
+      "sha256": "213d490b5010ecde664c6dd338c21ce1edbf040be6605361a3edbc00a0cb905c",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image11.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image12.jpeg",
+      "bytes": 700228,
+      "sha256": "79acce734b0670d6a89feefcb418afa08e9c8646c205d64b6986997f0913b022",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image12.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image13.jpeg",
+      "bytes": 243543,
+      "sha256": "7d8efdac901c09a675ba9b346b98b94b2d55d35f145c2aa3baf13f4e6a226025",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image13.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image14.jpeg",
+      "bytes": 127809,
+      "sha256": "9370e9c2b90230d0a93ba239cc8c56e5323ec054cd6a0c68ca3fcd2213f0b392",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image14.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image2.png",
+      "bytes": 64581,
+      "sha256": "d99d491c4b0e03e6079ded23c34b1e2493576a585d2e5cfa51a2e989a55274ff",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image2.png",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image3.png",
+      "bytes": 142148,
+      "sha256": "767c1eb3a95e9592c84128c152c1d09d0efde0760a896da74229f5e2c18bd8a2",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image3.png",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image4.jpeg",
+      "bytes": 169211,
+      "sha256": "386b9f32558c6fde3ce1a6717018c04944867d48b2e1c25bb7132c6792b740c3",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image4.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image5.png",
+      "bytes": 76239,
+      "sha256": "1cba1211762131e4dfa92bd3da5993772c5f16f2b0c0622246bdcc58f3eeab5d",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image5.png",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image6.png",
+      "bytes": 82949,
+      "sha256": "e5c9ba181992e60320b40605399d8dbbf6bde0bb0320748bd30d90804f4dbe4a",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image6.png",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image7.png",
+      "bytes": 102829,
+      "sha256": "5a66f86f0c54f9c456bbb3d88d8bf0dd93b0f384489cc445d0506b7112dbebc4",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image7.png",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image8.jpeg",
+      "bytes": 300369,
+      "sha256": "58c27f036653142a4654f7ba695cd6c36c1ad0325fd1a236f1695142e08df0a5",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image8.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/images/report-media/image9.jpeg",
+      "bytes": 111616,
+      "sha256": "72d40065e5f7fe5eb23b8e7284edd4d6a9bd6be24c2c06ab581491cc152f5e1b",
+      "origin": "saved_report_embedded_image",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "archive_member": "word/media/image9.jpeg",
+      "source_report_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159"
+    },
+    {
+      "path": "docs/validation/构建证据.md",
+      "bytes": 2027,
+      "sha256": "e122ac468752fd8cd73c6a35b9b1b14d61e963525652c8d23396ccff7c318ee5",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": "docs/下载与验证.md",
+      "bytes": 2346,
+      "sha256": "d367bfb34b566e3cf3b331444dcdb32cc270e43a98dbdc710638757933e1c6d9",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": "docs/使用说明.md",
+      "bytes": 4096,
+      "sha256": "e81ecbc7ca9008e04b331df4d286e3205493a06e861088c547632ddae88433e5",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": "docs/演示图片.md",
+      "bytes": 1086,
+      "sha256": "23ad72277fa1f68a40fcab13e3d4025e1568b9878587b08eb21299b4dfae2f4b",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": "实验位流/manifest.json",
+      "bytes": 1407,
+      "sha256": "0c236eee11abba7a0cf6ce5f88eefaba56ef11db06bfb2d271259b1feeb07294",
+      "origin": "generated_submission_document"
+    },
+    {
+      "path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "bytes": 2567755,
+      "sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159",
+      "origin": "saved_workspace_attachment",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "note": "Saved attachment snapshot; not asserted to be a new build or a committed Git blob"
+    },
+    {
+      "path": "技术报告/figures/fig01_design_flow.png",
+      "bytes": 64581,
+      "sha256": "d99d491c4b0e03e6079ded23c34b1e2493576a585d2e5cfa51a2e989a55274ff",
+      "origin": "git_blob",
+      "source_path": "技术报告/figures/fig01_design_flow.png",
+      "source_blob": "c3e3d5e801bc701ac7c42faf548c0aef4cd88c9a"
+    },
+    {
+      "path": "技术报告/figures/fig02_system_block.png",
+      "bytes": 142148,
+      "sha256": "767c1eb3a95e9592c84128c152c1d09d0efde0760a896da74229f5e2c18bd8a2",
+      "origin": "git_blob",
+      "source_path": "技术报告/figures/fig02_system_block.png",
+      "source_blob": "fc3ac72fce291b34f6241c91dd77281b38b41c02"
+    },
+    {
+      "path": "技术报告/figures/fig03_pixel_pipeline.png",
+      "bytes": 76239,
+      "sha256": "1cba1211762131e4dfa92bd3da5993772c5f16f2b0c0622246bdcc58f3eeab5d",
+      "origin": "git_blob",
+      "source_path": "技术报告/figures/fig03_pixel_pipeline.png",
+      "source_blob": "1c1f2290fed288d8353fd801495a3d46b64df454"
+    },
+    {
+      "path": "技术报告/figures/fig04_transition_fsm.png",
+      "bytes": 82949,
+      "sha256": "e5c9ba181992e60320b40605399d8dbbf6bde0bb0320748bd30d90804f4dbe4a",
+      "origin": "git_blob",
+      "source_path": "技术报告/figures/fig04_transition_fsm.png",
+      "source_blob": "f9c77e16bd62aef4ce30d93119d1887c51534e52"
+    },
+    {
+      "path": "技术报告/figures/fig05_audio_path.png",
+      "bytes": 102829,
+      "sha256": "5a66f86f0c54f9c456bbb3d88d8bf0dd93b0f384489cc445d0506b7112dbebc4",
+      "origin": "git_blob",
+      "source_path": "技术报告/figures/fig05_audio_path.png",
+      "source_blob": "f9e7f9743f8164c724e26ba875cbd1683052d288"
+    }
+  ]
+}
