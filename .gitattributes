@@ -2,6 +2,7 @@
 * -text
 *.bit binary
 *.docx binary
+*.pdf binary
 *.png binary
 *.BMP binary
 *.bmp binary

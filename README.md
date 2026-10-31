@@ -48,7 +48,7 @@ flowchart LR
     PCM --> HDMI
 ```
 
-显示内容由背景图片和硬件图层组成，更新售罄状态时无需重写BMP。菜单管理在像素域维护商品状态，TF文件读取、帧缓存和音频缓冲按各自接口协同运行。详见 [系统结构图](技术报告/figures/fig02_system_block.png) 与 [技术报告](技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx)。
+显示内容由背景图片和硬件图层组成，更新售罄状态时无需重写BMP。菜单管理在像素域维护商品状态，TF文件读取、帧缓存和音频缓冲按各自接口协同运行。详见 [系统结构图](技术报告/figures/fig02_system_block.png) 与 [技术报告 PDF](技术报告/MenuFlow动态售罄菜单显示终端_技术报告.pdf)。
 
 ## 如何操作
 
@@ -77,7 +77,7 @@ MenuFlow/
 ├── README.md                 作品介绍与快速运行
 ├── HX4S20_HDMI/              完整TD工程、RTL/IP/约束、运行素材和测试
 │   └── HX4S20_HDMI_Config_Runs/phy_1/  唯一位流及对应时序/引脚报告
-├── 技术报告/                 DOCX技术报告及架构插图
+├── 技术报告/                 PDF技术报告、DOCX源件及架构插图
 ├── docs/                     使用说明、演示图、报告内嵌图与交付清单
 └── 实验位流/manifest.json    本次交付位流的路径与SHA-256
 ```
@@ -89,7 +89,8 @@ MenuFlow/
 | 完整 TD 工程 | [HX4S20_HDMI_Config.al](HX4S20_HDMI/HX4S20_HDMI_Config.al) |
 | 操作、TF 卡与编译 | [使用说明](docs/使用说明.md) |
 | 可下载位流与校验 | [下载与验证](docs/下载与验证.md) |
-| 技术报告 | [MenuFlow 技术报告.docx](技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx) |
+| 技术报告 PDF（提交版，50 MB以内） | [MenuFlow 技术报告.pdf](技术报告/MenuFlow动态售罄菜单显示终端_技术报告.pdf) |
+| 可编辑报告源件 | [MenuFlow 技术报告.docx](技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx) |
 | 更多效果预览 | [演示图片](docs/演示图片.md) |
 | 交付文件校验清单 | [submission_manifest.json](docs/submission_manifest.json) |
 

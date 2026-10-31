@@ -6,8 +6,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 174,
-      "sha256": "e0b74c02bbcdff20cbd154b9f3db27b15f2c51605365c5a2aac99dbf3d7840a7",
+      "bytes": 187,
+      "sha256": "bb54285858609c68ecfc9032dadd2528cb2e431bdaceb29458b4f5b64280d1dc",
       "origin": "generated_submission_document"
     },
     {
@@ -1361,8 +1361,8 @@
     },
     {
       "path": "HX4S20_HDMI/tools/submission/verify_submission.py",
-      "bytes": 6132,
-      "sha256": "5bd8476d980b7f3b2f3c44f1c5408adac61b86afab762bf39284a1849461c2f0",
+      "bytes": 6386,
+      "sha256": "deeeb46c8a0cff8bbb9c36640aba3d42d9ede12d7888b9288cb1ddf2d7dff78c",
       "origin": "new_submission_tool"
     },
     {
@@ -1399,8 +1399,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5568,
-      "sha256": "8d2f366badb3677be99b3cbec69eb8f6080e3fa88620b214dfb1c34af95e70a8",
+      "bytes": 5742,
+      "sha256": "dda929f6c6e1340374839891a5b0e92cf393cee9627a0e1068fcf01e7e4ae982",
       "origin": "generated_submission_document"
     },
     {
@@ -1537,8 +1537,8 @@
     },
     {
       "path": "docs/下载与验证.md",
-      "bytes": 2346,
-      "sha256": "d367bfb34b566e3cf3b331444dcdb32cc270e43a98dbdc710638757933e1c6d9",
+      "bytes": 2755,
+      "sha256": "51775db884546507d460a20172e07f8c2b9a24af1cc866f7e1193182268410b0",
       "origin": "generated_submission_document"
     },
     {
@@ -1566,6 +1566,17 @@
       "origin": "saved_workspace_attachment",
       "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
       "note": "Saved attachment snapshot; not asserted to be a new build or a committed Git blob"
+    },
+    {
+      "path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.pdf",
+      "bytes": 1539508,
+      "sha256": "2bd2f7b227fb278f785784621a3ab381170ddb30d0ee668b9efcf24e21edfa76",
+      "origin": "converted_report_pdf",
+      "source_path": "技术报告/MenuFlow动态售罄菜单显示终端_技术报告.docx",
+      "source_sha256": "7c53f12ee929f8f28874204f0416e77387e053f00a824bf67b4da98d1704e159",
+      "conversion": "Microsoft Word ExportAsFixedFormat PDF; source DOCX unchanged",
+      "maximum_bytes_exclusive": 50000000,
+      "pages": 22
     },
     {
       "path": "技术报告/figures/fig01_design_flow.png",

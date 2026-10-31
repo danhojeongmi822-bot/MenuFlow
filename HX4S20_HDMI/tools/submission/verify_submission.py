@@ -85,6 +85,10 @@ def verify(root: Path) -> dict:
             assert len(data) == 921654, rel
         if path.suffix.lower() == '.pcm':
             assert path.stat().st_size > 0 and path.stat().st_size % 2 == 0, rel
+        if path.suffix.lower() == '.pdf':
+            pdf_data = path.read_bytes()
+            assert pdf_data.startswith(b'%PDF-') and b'%%EOF' in pdf_data[-2048:], rel
+            assert 0 < len(pdf_data) < 50_000_000, 'PDF must be smaller than 50 MB'
         if path.suffix.lower() == '.docx':
             with zipfile.ZipFile(path) as document:
                 assert document.testzip() is None
